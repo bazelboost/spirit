@@ -12,7 +12,7 @@
 #endif
 
 #include <boost/mpl/has_xxx.hpp>
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 #include <boost/spirit/home/support/attributes.hpp>
 
 namespace boost { namespace spirit { namespace traits

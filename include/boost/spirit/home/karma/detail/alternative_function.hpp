@@ -19,7 +19,7 @@
 #include <boost/spirit/home/support/detail/hold_any.hpp>
 #include <boost/spirit/home/karma/detail/output_iterator.hpp>
 #include <boost/spirit/home/support/container.hpp>
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 #include <boost/variant.hpp>
 #include <boost/detail/workaround.hpp>
 

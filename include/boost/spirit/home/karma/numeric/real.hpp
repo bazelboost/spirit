@@ -13,7 +13,7 @@
 #include <boost/config/no_tr1/cmath.hpp>
 #include <boost/config.hpp>
 #include <boost/mpl/bool.hpp>
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 #include <boost/spirit/home/support/common_terminals.hpp>
 #include <boost/spirit/home/support/string_traits.hpp>
 #include <boost/spirit/home/support/numeric_traits.hpp>

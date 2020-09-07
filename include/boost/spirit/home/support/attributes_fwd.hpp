@@ -16,7 +16,7 @@
 #include <boost/config.hpp>
 #if (defined(__GNUC__) && (__GNUC__ < 4)) || \
     (defined(__APPLE__) && defined(__INTEL_COMPILER))
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 #endif
 #include <boost/spirit/home/support/unused.hpp>
 

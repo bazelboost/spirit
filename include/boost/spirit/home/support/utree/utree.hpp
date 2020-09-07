@@ -26,7 +26,7 @@
 #include <boost/range/iterator_range_core.hpp>
 #include <boost/type_traits/remove_pointer.hpp>
 #include <boost/type_traits/is_polymorphic.hpp>
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 #include <boost/utility/result_of.hpp>
 #include <boost/ref.hpp>
 #include <boost/config.hpp>

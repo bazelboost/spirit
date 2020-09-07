@@ -12,7 +12,7 @@
 
 #include <boost/spirit/home/karma/generate.hpp>
 #include <boost/spirit/home/karma/auto/create_generator.hpp>
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 #include <boost/mpl/not.hpp>
 #include <boost/mpl/and.hpp>
 

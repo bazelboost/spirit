@@ -16,7 +16,7 @@
 
 #include <boost/type_traits/remove_pointer.hpp>
 #include <boost/type_traits/is_pointer.hpp>
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 #include <boost/throw_exception.hpp>
 #include <boost/iterator/iterator_traits.hpp>
 #include <cstring> // for std::memcpy

@@ -21,7 +21,7 @@
 #include <boost/mpl/logical.hpp>
 #include <boost/mpl/at.hpp>
 #include <boost/mpl/count_if.hpp>
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 #include <boost/optional/optional.hpp>
 #include <boost/type_traits/is_same.hpp>
 

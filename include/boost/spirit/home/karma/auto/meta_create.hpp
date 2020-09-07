@@ -14,7 +14,7 @@
 #include <boost/spirit/home/support/common_terminals.hpp>
 #include <boost/spirit/home/support/auto/meta_create.hpp>
 
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 #include <boost/variant.hpp>
 #include <boost/optional.hpp>
 #include <boost/config.hpp>

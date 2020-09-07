@@ -26,7 +26,7 @@
 #include <boost/mpl/or.hpp>
 #include <boost/range/iterator_range_core.hpp>
 #include <boost/type_traits/is_same.hpp>
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost

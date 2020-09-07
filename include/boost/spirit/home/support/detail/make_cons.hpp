@@ -18,7 +18,7 @@
 #include <boost/type_traits/is_abstract.hpp>
 #include <boost/type_traits/is_function.hpp>
 #include <boost/type_traits/add_reference.hpp>
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 
 namespace boost { namespace spirit { namespace detail
 {

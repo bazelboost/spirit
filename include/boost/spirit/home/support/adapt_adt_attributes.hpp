@@ -14,7 +14,7 @@
 #include <boost/spirit/home/support/container.hpp>
 #include <boost/spirit/home/support/numeric_traits.hpp>
 #include <boost/fusion/include/adapt_adt.hpp>
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 // customization points allowing to use adapted classes with spirit

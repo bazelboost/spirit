@@ -13,7 +13,7 @@
 
 #include <boost/spirit/home/qi/parse.hpp>
 #include <boost/spirit/home/qi/auto/create_parser.hpp>
-#include <boost/utility/enable_if.hpp>
+#include <boost/core/enable_if.hpp>
 #include <boost/mpl/not.hpp>
 #include <boost/mpl/and.hpp>
 
