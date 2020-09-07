@@ -95,6 +95,9 @@ cc_library(
     name = "spirit_internal",
     hdrs = glob(["include/boost/**/*.hpp"], exclude = _public_hdrs),
     srcs = glob(["include/boost/**/*.ipp"]),
+    deps = [
+        "@boost//utility",
+    ],
 )
 
 cc_library(
@@ -102,5 +105,16 @@ cc_library(
     visibility = ["//visibility:public"],
     includes = ["include"],
     hdrs = glob(_public_hdrs),
-    deps = [":spirit_internal"],
+    deps = [
+        ":spirit_internal",
+        "@boost//mpl",
+        "@boost//type_traits",
+        "@boost//core",
+        "@boost//fusion",
+        "@boost//variant",
+        "@boost//range",
+        "@boost//optional",
+        "@boost//regex",
+        "@boost//math",
+    ],
 )
